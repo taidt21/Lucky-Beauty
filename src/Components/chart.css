@@ -1,0 +1,46 @@
+
+.tooltips{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+-webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: end;
+gap: 2.013888888888889vw;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+
+}
+.tooltip-text{
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #666466;
+    padding-top: 0.20833333333333334vw;
+}
+.tooltip-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.5555555555555556vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.tooltip-dot {
+    width: 0.8333333333333334vw;
+    height: 0.8333333333333334vw;
+    border-radius: 50%;
+}
+.tooltip-dot.current{
+    background: #CBADC2;
+
+}
+.tooltip-dot.before{
+    background: #FFC700;
+
+}
+.chart{
+    position: relative;
+    padding-right: 2.2222222222222223vw;
+}

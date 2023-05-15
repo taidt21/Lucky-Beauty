@@ -1,0 +1,39 @@
+
+.services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.6666666666666667vw;
+    margin-top: 0.8333333333333334vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    
+}
+.service-progress {
+    height: 0.5555555555555556vw;
+    border-radius: 70px;
+}
+.service-progressBar{
+    height: 100%;
+    width: 60%;
+    border-radius: 70px;
+}
+.service-row-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0.4166666666666667vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.service-name {
+    font-size: 0.9722222222222222vw;
+    color: #4C4B4C;
+}
+.service-value {
+    font-size: 0.9722222222222222vw;
+    
+}

@@ -1,0 +1,66 @@
+.todo-container{
+    display: flex;
+flex-direction: column;
+padding-left: 1.597222222222222vw;
+padding-right: 2.361111111111111vw;
+padding-bottom: 0.2777777777777778vw;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.8333333333333334vw;
+    border-bottom: 1px solid #E6E1E6;
+   align-items: end;
+
+}
+.todo-item_col-1 {
+    display: flex;
+    gap: 1.7361111111111112vw
+    ;
+    
+}
+.todo-item .times {
+    gap: 0.3819444444444444vw;
+    display: flex;
+    margin-top: 0.2777777777777778vw;
+    color: #666466;
+    font-size: 0.9722222222222222vw;
+}
+.todo-name {
+    color: #666466;
+    font-size: 0.9722222222222222vw;
+}
+.todo-item .job{
+    margin-top: 0.2777777777777778vw;
+    font-weight: 700;
+    color: 
+    #666466;
+    line-height: 1.6666666666666667vw;
+}
+.state{
+    color: #009EF7;
+    background: #F1FAFF;
+border-radius: 8px;
+font-size: 0.8333333333333334vw;
+padding: 0.2777777777777778vw 0.8333333333333334vw;
+}
+.todo-item .price{
+    color: 
+    #4C4B4C;
+    margin-top: 0.2777777777777778vw;
+    font-weight: 700;
+}
+
+.body-row-4_col-1_row-1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.6666666666666667vw;
+    padding-right: 1.7361111111111112vw;
+}
+.bar-tootilp {
+    display: flex;
+}
+.body-row-4 {
+    padding-left: 2.2222222222222223vw;
+    padding-right: 2.2222222222222223vw;
+}

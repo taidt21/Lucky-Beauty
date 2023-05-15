@@ -1,0 +1,185 @@
+
+
+.logo-img{
+    width: 1.9444444444444444vw;
+}
+.logo-text{
+    color: #1F0D1A;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.9444444444444444vw;
+}
+body.darkMode .logo-text{
+    color: #fff;
+}
+.nav .MuiListItem-root:first-child {
+    gap: 0.5555555555555556vw;
+}
+.dashboard {
+    min-height: 100vh;
+    height: 100%;
+    padding-left: 1.1111111111111112vw;
+    padding-right: 1.1805555555555556vw;
+    border-right: 1px solid 
+    #E6E1E6;
+    max-width: 16.666666666666664vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 2.2222222222222223vw;
+    width: 16.666666666666664vw;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    background: transparent!important;
+}
+.MuiListItem-root  .MuiTypography-root{
+    color: 
+    #999699;
+}
+.nav  > div > .MuiPaper-root{
+    position: relative!important;
+    
+    border: 0;
+}
+
+.nav .MuiBadge-badge {
+    padding: 0.1388888888888889vw 0.6944444444444444vw!important;
+    font-size: 0.9722222222222222vw!important;
+    color: #7C3367;
+    background: #F2F2F2;
+    right: 0.8333333333333334vw!important;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+}
+.nav .MuiBadge-root {
+    -ms-flex-negative: unset;
+        flex-shrink: unset;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.nav .arrow-down{
+    position: absolute;
+    right: 1.1805555555555556vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.nav .MuiListItem-root:not(:last-child):not(:first-child){
+    margin-bottom: 0.5555555555555556vw;
+}
+.nav .MuiListItem-root  {
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 0.8333333333333334vw;
+    padding-left: 0.9027777777777777vw!important;
+    max-width: 14.374999999999998vw;
+    
+    padding-right: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.nav .MuiListItem-root:nth-child(2){
+    margin-top: 3.3333333333333335vw;
+}
+.nav .MuiListItem-root:hover{
+    background: #F2EBF0;
+    color: #7C3367;
+
+}
+.nav .MuiListItemIcon-root{
+    width: 1.6666666666666667vw;
+    min-width: 0;
+}
+.dashboard-bottom_buttons button:hover{
+    background: transparent;
+}
+.dashboard-bottom_buttons{
+    border-bottom: 1px solid #E6E1E6;
+    padding-bottom: 1.9444444444444444vw;
+    text-align: left;
+}
+.dashboard-bottom_buttons button {
+    border: none!important;
+    padding: 0!important;
+    border-radius: 100px!important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: transparent;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+.dashboard-bottom_buttons button.default + button{
+padding: 0.5555555555555556vw 1.1111111111111112vw;
+background-color: #fff;
+width: 3.3333333333333335vw;
+}
+
+.dashboard-bottom_buttons button.active{
+    padding: 0.5555555555555556vw 1.1111111111111112vw;
+    background-color: #fff;
+    width: 3.3333333333333335vw;
+    -webkit-box-shadow: 0px 5px 3px -2px #00000005;
+            box-shadow: 0px 5px 3px -2px #00000005;
+
+
+
+    }
+    
+.dashboard-bottom_buttons  span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.dashboard-bottom_buttons > div {
+    width: 6.388888888888888vw;
+    padding: 0.2777777777777778vw;
+    height: 2.7777777777777777vw;
+    border-radius: 100px;
+    background: #F2F2F2;
+
+}
+.dashboard-bottom_exit button {
+    gap: 0.8333333333333334vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    margin-top: 1.6666666666666667vw;
+}
+.exit-icon{
+    background: #CBADC2;
+    width: 3.5416666666666665vw;
+    height: 3.5416666666666665vw;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.exit-text{
+    color: #4C4B4C;
+    text-transform: none;
+}
+.nav .MuiTypography-root {
+    font-size: 1.1111111111111112vw;
+}

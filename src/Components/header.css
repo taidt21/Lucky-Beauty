@@ -1,0 +1,66 @@
+
+.header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    padding-right: 2.5vw;
+    border-bottom: 1px solid #E6E1E6;
+    padding-top: 0.9027777777777777vw;
+    padding-bottom: 0.9027777777777777vw;
+    background-color: #fff;
+}
+.header-col-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.8055555555555554vw;
+    margin-right: 9.375vw;
+}
+.header-col-1 button {
+    padding: 0!important;
+}
+.header-col-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header-col-2 .down {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+.header-col-2_logo{
+    margin-right: -7.361111111111112vw;
+}
+.header-col-2 [role="button"]{
+    border: none;
+}
+.notification .MuiBadge-badge{
+    background-color: #D8727D;
+    min-width: 0.4166666666666667vw;
+    top: 0.2777777777777778vw;
+    right: 0.3472222222222222vw;
+    height: 0.4166666666666667vw;
+}
+.header-col-2 fieldset {
+    border: 0;
+}
+.header-col-2 .MuiSelect-select{
+    min-height: 0!important;
+    padding: 0;
+    width: 7.291666666666667vw;
+    border: 0!important;
+}
